@@ -22,7 +22,7 @@ yr = 365*24*3600 # s
 c = 2.9979e10 # cm/s
 ##################### constant #####################
 
-def prob_chap4():
+def problem_chap4():
   print("############ Problem 4.7 ############")
   f = 1.37e6
   # (1)
@@ -53,4 +53,4 @@ def prob_chap4():
   F_6 = f * (10 ** (-32.7/2.5))
   print("F_6 = %e"%F_6)
 
-prob_chap4()
+problem_chap4()
